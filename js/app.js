@@ -92,11 +92,11 @@ $(() => {
 
   $statusBar.init();
   $statusBar.display(np.bShowStatusBar === 'true');
-  $statusBar.display(np.bWrap === 'false');
+  //$statusBar.display(np.bWrap === 'false');
 
   $menubar.checked(2, 0, np.bWrap === 'true');
   $menubar.checked(3, 0, np.bShowStatusBar === 'true');
-  $menubar.enabled(3, 0, np.bWrap === 'false');
+  //$menubar.enabled(3, 0, np.bWrap === 'false');
 
   let $app = $('body');
 
