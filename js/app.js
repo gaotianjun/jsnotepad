@@ -1,7 +1,3 @@
-/*
- * Notepad 主程序
- * wangding 408542507@qq.com 2018
- */
 
 let np = {};                // Notepad 主程序对象
 
@@ -9,7 +5,7 @@ np.config = {
   'appContainer': '.notepad-app'
 };
 
-np.bShowStatusBar = localStorage.getItem('bShowStatusBar') || false;   // 是否显示状态栏
+np.bShowStatusBar = localStorage.getItem('bShowStatusBar') || true;   // 是否显示状态栏
 np.bWrap          = localStorage.getItem('bWrap') || false;            // 是否换行
 np.fontFamily     = localStorage.getItem('fontFamily') || 'Arial';     // 默认字体
 np.fontStyle      = localStorage.getItem('fontStyle') || '常规';       // 默认字体样式
